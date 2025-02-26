@@ -1,8 +1,7 @@
-﻿namespace BE_BTOnline2.Models.Responses
+﻿namespace BE_BTOnline2.Models.Requests
 {
-    public class InternResponse
+    public class InternRequest
     {
-        public int Id { get; set; }
         public string? InternName { get; set; }
         public string? InternAddress { get; set; }
         public byte[]? ImageData { get; set; }
